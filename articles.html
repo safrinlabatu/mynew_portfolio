@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Safrin's Portfolio</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="articles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<header>
+		<nav class="nav">
+			<!-- <label for="toggle">&#9776;</label>
+        	<input type="checkbox" id="toggle"/> -->
+			<ul class="nav_links">
+                <li><a href="index.html">Home</a></li>
+				<li><a href="articles.html">Articles</a></li>
+				<li><a href="projects.html">Projects</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div class="description_box">
+		<div class='projects'>
+            <h2>Dataviz Assignment 1 - Why I think this is a good visualization</h2></br>
+
+            <figure>
+	            <img src="images/viz.PNG" width="100%" height="100%">
+	            <figcaption style="text-align: center;"><i>Source: <a href="https://www.gapminder.org/tools/#$state$time$value=2020;;&chart-type=popbyage">Gapminder.org</i></a></figcaption>
+            </figure></br>
+
+            <p>The visualization I am reviewing, which can be seen <a href="https://www.gapminder.org/tools/#$state$time$value=2020;;&chart-type=popbyage" target="_blank"><b>here</b></a>, is a histogram made by Gapminder that shows the distribution of world population by age from 1950 to 2100. The animated histogram tells a story on how demographics distribution changes over time. It also shows how human’s lifespan has increased over time.</p></br>
+
+            <p>The data shows that proportions of younger populations especially newborn babies continue to decrease while the number of older populations, particularly people aged 50 and above, has increased over time. For example, one-year-old babies accounted for 2.9% of the population in 1950 but they were only 1.7% in 2020. Meanwhile, the proportions of 50-year-old people increased from 0.9% in 1950 to 1.2% in 2020.</p></br>
+
+            <p>The statistics also show that human’s lifespan has increased from 80 years in 1950 to above 90 years since 1990.</p></br>
+
+            <p>I think this is an example of a good and effective visualization for reasons I will elaborate below.</p></br>
+
+            <p>First of all, this is a good visualization because it tells a story, even without an accompanying text. And the story is easier to understand because the data and all the changes in the data are represented visually through animation. When we press the play button, we can watch how proportions of certain age groups are growing while certain other groups are shrinking as the timeline is progressing. The data presented must be from a huge dataset but with the right choice of visualization the information can be easily understood. In his book “The Visual Display of Quantitative Information,”<a href="#section1">[1]</a> data visualization guru Edward Tufte calls this principle “graphical excellence,” which basically means “a well-designed presentation of interesting data.” </p></br>
+
+            <p>I specifically use Michael Mahoney’s “four mantras”<a href="#section2">[2]</a>  concept here. In his blog published at <a href="https://towardsdatascience.com/the-art-and-science-of-data-visualization-6f9d706d673e" target="_blank"><b>towardsdatascience.com</b></a>, Mahoney says that a good visualization tells a story. The story is not the whole information in a data but a specific element an analyst wants to present that identifies patterns and trends. In this case, the story is focused on ages and nothing else. Imagine if Gapminder who created the visualization added other element such as gender. This could make the story more complicated and difficult to understand.</p></br>
+
+            <p>Second of all, this is an effective visualization because it is simple. I will also use Mahoney’s idea here. He says in his blog that “everything should be made simple, but no simpler.”<a href="section3">[3]</a>  The fact that the data in our visualization comes from a large dataset is enough to prove that this is an inherently complicated data. We can imagine that the original dataset might have other data points such as gender and countries. The creator omitted these other elements and focus on just one, making both the data and the presentation simple. </p></br>
+
+            <p>What is interesting is that the creator can make the presentation simple despite the data having different dimensions such as percentage and counts. Instead combining them all in one place, an option is provided on the right-hand side for readers to choose to view the age distributions in percentage or counts (total number of an age group).</p></br>
+
+            <p>Simplicity is also related to design. The histogram is actually very basic. Nothing special. There is even only one colour. Having all the different ages in the data, there must be a temptation to mark each age group with different colours. But the creator decided to just use one colour and this makes the overall presentation simple and straightforward.</p></br>
+
+            <p>I think the point of simplicity is connected to Tufte’s view of good visualization when he said that visualization should make data understandable. Simple visualization of course has more chance to be understandable as it focuses on data much more rather than on design. Tufte also touched on this when he said talked about visualization with “the least of ink.”</p></br>
+
+            <p>Finally, I think this is a good visualization because it “uses the right tool for the job”, as Mahoney put it in his recipes of good visualizations published on his blog. I think animation is a good choice here because it can present a large dataset into an easy-to-understand visualization. The dataset is large because it consists of data collections from 1950 to 2100. It would be hard to see the trends and changes if the data is presented in a non-animated graph.</p></br>
+
+            <p>Having said all the good things, I think the graph can be improved further by doing the following. First of all, ages close to each other can be grouped together to make the visualization simpler. For example, rather than having each individual age, the Y coordinate can go like 0-3, 4-6, 7-9 et cetera. It will be very helpful if there is a clear boundary in the graph between real data and prediction data. For example, part of the graph that is real data is marked with yellow colour and the part that is prediction data (such as 2022 to 2100) is marked with yellow colour with slightly light brightness. This way readers can have much better understanding of the data.</p></br>
+            <hr/></br>
+        	<h3 style="align-self: center">Footnotes</h3>
+        	</br>
+            <p id="section1">[1] Edward R Tufte, 2001. ‘The Visual Display of Quantitative Information. 2nd Edn. Graphics Press. Connecticut. 2001. p. 51.</p></br>
+            <p id="section2">[2] Mahoney, M. 2019. The Art and Science of Data Visualization. [online] Available at: <a href="https://towardsdatascience.com/the-art-and-science-of-data-visualization-6f9d706d673e">https://towardsdatascience.com/the-art-and-science-of-data-visualization-6f9d706d673e</a> [Accessed March 19 2021].</p></br>
+            <p id="section3">[3] ibid.</p></br>
+            <hr/>
+		</div>
+		<h3 class="social-text">Let's Connect</h3>
+		<div id="social-media">
+		    <a href="https://github.com/safrinlabatu" class="fa fa-github"id="profile-link" target="_blank"></a>
+		    <a href="https://twitter.com/SafrinLaBatu" class="fa fa-twitter" target="_blank"></a>
+		    <a href="mailto: &#115;&#97;&#102;&#114;&#105;&#110;&#46;&#116;&#106;&#112;&#99;&#117;&#98;&#50;&#48;&#49;&#53;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;" target="_blank" class="fa fa-google"></a>
+		    <a href="https://www.linkedin.com/in/safrin-la-batu/" class="fa fa-linkedin" target="_blank"></a>
+  		</div>
+	</div>
+</body>
